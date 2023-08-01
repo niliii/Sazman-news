@@ -1,0 +1,733 @@
+{
+  "users": [
+    {
+      "ID": 1,
+      "mobile": "09155301677",
+      "otp": 4424,
+      "firstName": "محمدجواد",
+      "lastName": "طالب کارگر",
+      "userAbleType": "admin",
+      "userAbleID": "1",
+      "status": "active"
+    },
+    {
+      "ID": 2,
+      "mobile": "09153001365",
+      "otp": 4425,
+      "firstName": "امیر",
+      "lastName": "اسدی",
+      "userAbleType": "writer",
+      "userAbleID": "2",
+      "status": "active"
+    },
+    {
+      "ID": 3,
+      "mobile": "09151234567",
+      "otp": 4426,
+      "firstName": "ناصر",
+      "lastName": "رسولی",
+      "userAbleType": "writer",
+      "userAbleID": "4",
+      "status": "active"
+    },
+    {
+      "ID": 4,
+      "mobile": "09151234577",
+      "otp": 4427,
+      "firstName": "باقر",
+      "lastName": "توکلی",
+      "userAbleType": "writer",
+      "userAbleID": "6",
+      "status": "active"
+    },
+    {
+      "ID": 5,
+      "mobile": "09134544556",
+      "otp": 4429,
+      "firstName": "زهرا",
+      "lastName": "شیردل",
+      "userAbleType": "writer",
+      "userAbleID": "9",
+      "status": "active"
+    },
+    {
+      "ID": 6,
+      "mobile": "09455544444",
+      "otp": 4430,
+      "firstName": "ملیحه",
+      "lastName": "یوسفی",
+      "userAbleType": "writer",
+      "userAbleID": "3",
+      "status": "active"
+    }
+  ],
+  "writers": [
+    {
+      "ID": 2,
+      "firstName": "امیر",
+      "lastName": "اسدی",
+      "image": "/img/20220322_155430.jpg"
+    },
+    {
+      "ID": 3,
+      "firstName": "ناصر",
+      "lastName": "رسولی",
+      "image": "/img/20220322_155430.jpg"
+    },
+    {
+      "ID": 4,
+      "firstName": "باقر",
+      "lastName": "توکلی",
+      "image": "/img/20220322_155430.jpg"
+    },
+    {
+      "ID": 5,
+      "firstName": "زهرا",
+      "lastName": "شیردل",
+      "image": "/img/20220322_155430.jpg"
+    },
+    {
+      "ID": 6,
+      "firstName": "ملیحه",
+      "lastName": "یوسفی",
+      "image": "/img/20220322_155430.jpg"
+    }
+  ],
+  "Admin": [
+    {
+      "id": 1,
+      "firstName": "محمدجواد",
+      "lastName": "طالب کارگر",
+      "phone": "09155301677",
+      "image": "/img/20220322_155430.jpg"
+    }
+  ],
+  "menu": [
+    {
+      "id": 1,
+      "parent_id": 0,
+      "title": "خانه",
+      "link_type": "inner",
+      "link": "/",
+      "order": "0",
+      "status": 1
+    },
+    {
+      "id": 2,
+      "parent_id": 1,
+      "title": "صفحه اصلی",
+      "link_type": "inner",
+      "link": "/",
+      "order": "0",
+      "status": 1
+    },
+    {
+      "id": 3,
+      "parent_id": 1,
+      "title": "درباره ما",
+      "link_type": "inner",
+      "link": "/about",
+      "order": "1",
+      "status": 1
+    },
+    {
+      "id": 4,
+      "parent_id": 1,
+      "title": "تماس با ما",
+      "linkType": "inner",
+      "link": "/contact",
+      "order": "2",
+      "status": 1
+    }
+  ],
+  "newsLetter": [
+    {
+      "ID": 1,
+      "email": "mohammadjavadTaleb@gmail.com"
+    },
+    {
+      "id": 3,
+      "email": "kmkm@kmk.com"
+    },
+    {
+      "email": "kmkm@kmk.com",
+      "id": 4
+    },
+    {
+      "email": "kmkm@kmk.com",
+      "id": 5
+    },
+    {
+      "email": "mkmk@nkn.com",
+      "id": 6
+    },
+    {
+      "email": "mkmk@nkn.com",
+      "id": 7
+    },
+    {
+      "email": "mkmk@nkn.com",
+      "id": 8
+    },
+    {
+      "email": "mkmk@nkn.com",
+      "id": 9
+    },
+    {
+      "email": "mkmk@nkn.com",
+      "id": 10
+    },
+    {
+      "email": "mkmk@nkn.com",
+      "id": 11
+    },
+    {
+      "email": "mkmk@nkn.com",
+      "id": 12
+    },
+    {
+      "email": "mkmk@nkn.com",
+      "id": 13
+    },
+    {
+      "email": "mkmk@nkn.com",
+      "id": 14
+    },
+    {
+      "email": "taleb.najmeh@yahoo.com",
+      "id": 15
+    },
+    {
+      "email": "mkmk@nkn.com",
+      "id": 16
+    },
+    {
+      "email": "m/kmk@nkn.com",
+      "id": 17
+    },
+    {
+      "email": "newsLetterEmail@gmail.com",
+      "id": 18
+    }
+  ],
+  "sliders": [
+    {
+      "name": "اسلاید ۲",
+      "link": "https://google.com",
+      "link_type": "1",
+      "status": 1,
+      "image": "banner_SlideBanner_eToHw8_400130a3-b5c2-49ab-926d-9b11891dda6e.webp",
+      "id": 2
+    },
+    {
+      "name": "اسلاید ۲",
+      "link": "https://google.com",
+      "status": 1,
+      "link_type": 2,
+      "image": "banner_SlideBanner_sLCkoI_17426950-11ba-485b-b32b-37297488407b.webp",
+      "id": 3
+    },
+    {
+      "name": "اسلایدر 4",
+      "link": "https://google.com",
+      "status": 0,
+      "link_type": 1,
+      "image": "banner_SlideBanner_BIyorb_60c0a564-0eef-4049-943e-fd9ecc3836aa.webp",
+      "id": 4
+    }
+  ],
+  "categories": [
+    {
+      "ID": 1,
+      "parentID": 0,
+      "title": "خودرو",
+      "status": "active"
+    },
+    {
+      "ID": 2,
+      "parentID": 0,
+      "title": "تکنولوژی",
+      "status": "active"
+    },
+    {
+      "ID": 3,
+      "parentID": 0,
+      "title": "نقد و بررسی",
+      "status": "active"
+    },
+    {
+      "ID": 5,
+      "parentID": 0,
+      "title": "ویدیو",
+      "status": "active"
+    },
+    {
+      "ID": 6,
+      "parentID": 1,
+      "title": "اخبار خودرو",
+      "status": "active"
+    },
+    {
+      "ID": 7,
+      "parentID": 1,
+      "title": "آمورش خودرو",
+      "status": "active"
+    },
+    {
+      "ID": 8,
+      "parentID": 1,
+      "title": "معرفی و بررسی خودرو",
+      "status": "active"
+    },
+    {
+      "ID": 9,
+      "parentID": 1,
+      "title": "قیمت و شرایط فروش",
+      "status": "active"
+    },
+    {
+      "ID": 10,
+      "parentID": 1,
+      "title": "موتور اسپرت",
+      "status": "active"
+    },
+    {
+      "ID": 11,
+      "parentID": 2,
+      "title": "موبایل",
+      "status": "active"
+    },
+    {
+      "ID": 12,
+      "parentID": 2,
+      "title": "تبلت",
+      "status": "active"
+    },
+    {
+      "ID": 13,
+      "parentID": 2,
+      "title": "لپ تاپ",
+      "status": "active"
+    },
+    {
+      "ID": 14,
+      "parentID": 2,
+      "title": "دوربین",
+      "status": "active"
+    },
+    {
+      "ID": 15,
+      "parentID": 2,
+      "title": "گجت ها",
+      "status": "active"
+    },
+    {
+      "ID": 16,
+      "parentID": 2,
+      "title": "نرم افزار و اپلیکیشن",
+      "status": "active"
+    },
+    {
+      "ID": 17,
+      "parentID": 2,
+      "title": "کامپیوتر و سخت افزار",
+      "status": "active"
+    },
+    {
+      "ID": 18,
+      "parentID": 3,
+      "title": "بررسی موبایل",
+      "status": "active"
+    },
+    {
+      "ID": 19,
+      "parentID": 3,
+      "title": "بررسی تبلت",
+      "status": "active"
+    },
+    {
+      "ID": 20,
+      "parentID": 3,
+      "title": "بررسی لپ تاپ",
+      "status": "active"
+    },
+    {
+      "ID": 21,
+      "parentID": 3,
+      "title": "بررسی سخت افزار",
+      "status": "active"
+    },
+    {
+      "ID": 22,
+      "parentID": 3,
+      "title": "بررسی تلویزیون",
+      "status": "active"
+    },
+    {
+      "ID": 23,
+      "parentID": 4,
+      "title": "سیلیکون",
+      "status": "active"
+    },
+    {
+      "ID": 24,
+      "parentID": 4,
+      "title": "دیجی تک",
+      "status": "active"
+    },
+    {
+      "ID": 25,
+      "parentID": 4,
+      "title": "اکوسیستم",
+      "status": "active"
+    },
+    {
+      "ID": 26,
+      "parentID": 4,
+      "title": "دیجی داکس",
+      "status": "active"
+    }
+  ],
+  "ads": [
+    {
+      "ID": 1,
+      "positionID": 1,
+      "type": "image",
+      "Data": "/copyAddSide.png",
+      "linkType": "outer",
+      "link": "https://google.com"
+    },
+    {
+      "ID": 2,
+      "positionID": 2,
+      "type": "image",
+      "Data": "/copyAddSide.png",
+      "linkType": "outer",
+      "link": "https://google.com"
+    },
+    {
+      "ID": 3,
+      "positionID": 2,
+      "type": "image",
+      "Data": "/copyAddSide.png",
+      "linkType": "outer",
+      "link": "https://google.com"
+    }
+  ],
+  "setting": {
+    "title": "sazman news",
+    "desc": "",
+    "Logo": "/img/main-paya360-logo.webp",
+    "copyRight": "لورم ایپسوم یا متن ساختگی",
+    "phone": "05133333333",
+    "Address": "لورم ایپسوم یا متن ساختگی",
+    "instaLink": "https://instagram.com"
+  },
+  "companies": [
+    {
+      "ID": 1,
+      "brand": "",
+      "name": "",
+      "activity": "",
+      "banner1": "/img/polygonal3.jpg",
+      "banner2": "/img/polygonal3.jpg",
+      "logo": "/img/main-paya360-logo.webp",
+      "title": "دلتاگروپ",
+      "subtitle": "طراحی و توسعه وب",
+      "phone": "09155301677",
+      "state": "خراسان رضوی",
+      "city": "مشهد",
+      "address": "خیابان فرهاد فرهاد ۲۲",
+      "verifyStatus": true,
+      "status": "active",
+      "ownerId": 1
+    }
+  ],
+  "tickets": [
+    {
+      "ID": 1,
+      "userID": 5,
+      "subject": "ناهارم دادن اینجا؟",
+      "status": "active"
+    },
+    {
+      "ID": 2,
+      "userID": 2,
+      "subject": "ناهارم دادن اینجا؟2",
+      "status": "active"
+    },
+    {
+      "ID": 3,
+      "userID": 3,
+      "subject": "ناهارم دادن اینجا؟3",
+      "status": "active"
+    }
+  ],
+  "ticketReplies": [
+    {
+      "ID": 1,
+      "ticketID": "1",
+      "userID": "1",
+      "text": "خیر"
+    },
+    {
+      "ID": 1,
+      "ticketID": "2",
+      "userID": "1",
+      "text": "خیر2"
+    },
+    {
+      "ID": 1,
+      "ticketID": "3",
+      "userID": "1",
+      "text": "خیر3"
+    }
+  ],
+  "posts": [
+    {
+      "ID": 1,
+      "categoryID": 1,
+      "title": "تایتل یک مروری بر زندگی گوردون مور، مهندس افسانه ای دره سیلیکونی و خالق قانون مور",
+      "type": "text",
+      "image": "/img/Apple_MacBook_Pro_M2_Pro_and_M2_Max_hero_230117_Full_Bleed_Image-910x600.jpg",
+      "video": "",
+      "companyID": 1,
+      "writerID": 3,
+      "likeCount": 123,
+      "viewCount": 134,
+      "subtitle": "مهندس افسانه ای سیلیکون ولی زندگی تمام انسان ها را دگرگون کرد.",
+      "status": "active",
+      "publishAt": "1400/1/1",
+      "text": "",
+      "favoriteStatus": true
+    },
+    {
+      "ID": 2,
+      "categoryID": 1,
+      "title": "تایتل دو مروری بر زندگی گوردون مور، مهندس افسانه ای دره سیلیکونی و خالق قانون مور",
+      "type": "text",
+      "image": "/img/1200-1-910x600.jpg",
+      "video": "",
+      "companyID": 1,
+      "writerID": 3,
+      "likeCount": 123,
+      "viewCount": 134,
+      "subtitle": "تایتل سه مهندس افسانه ای سیلیکون ولی زندگی تمام انسان ها را دگرگون کرد.",
+      "status": "active",
+      "publishAt": "1400/1/1",
+      "text": "",
+      "favoriteStatus": true
+    },
+    {
+      "ID": 3,
+      "categoryID": 9,
+      "title": "تایتل سه مروری بر زندگی گوردون مور، مهندس افسانه ای دره سیلیکونی و خالق قانون مور",
+      "type": "text",
+      "image": "/img/1200-1-910x600.jpg",
+      "video": "",
+      "companyID": 1,
+      "writerID": 3,
+      "likeCount": 123,
+      "viewCount": 134,
+      "subtitle": "مهندس افسانه ای سیلیکون ولی زندگی تمام انسان ها را دگرگون کرد.",
+      "status": "active",
+      "publishAt": "1400/1/1",
+      "text": "",
+      "favoriteStatus": true
+    },
+    {
+      "ID": 4,
+      "categoryID": 6,
+      "title": "تایتل چهار مروری بر زندگی گوردون مور، مهندس افسانه ای دره سیلیکونی و خالق قانون مور",
+      "type": "text",
+      "image": "/img/elon-musk-548x350.jpeg",
+      "video": "",
+      "companyID": 1,
+      "writerID": 3,
+      "likeCount": 123,
+      "viewCount": 134,
+      "subtitle": "مهندس افسانه ای سیلیکون ولی زندگی تمام انسان ها را دگرگون کرد.",
+      "status": "active",
+      "publishAt": "1400/1/1",
+      "text": "",
+      "favoriteStatus": true
+    },
+    {
+      "ID": 5,
+      "categoryID": 7,
+      "title": "تایتل پنج مروری بر زندگی گوردون مور، مهندس افسانه ای دره سیلیکونی و خالق قانون مور",
+      "type": "text",
+      "image": "/img/elon-musk-548x350.jpeg",
+      "video": "",
+      "companyID": 1,
+      "writerID": 3,
+      "likeCount": 123,
+      "viewCount": 134,
+      "subtitle": "مهندس افسانه ای سیلیکون ولی زندگی تمام انسان ها را دگرگون کرد.",
+      "status": "active",
+      "publishAt": "1400/1/1",
+      "text": "",
+      "favoriteStatus": true
+    },
+    {
+      "ID": 6,
+      "categoryID": 7,
+      "title": "تایتل شش مروری بر زندگی گوردون مور، مهندس افسانه ای دره سیلیکونی و خالق قانون مور",
+      "type": "text",
+      "image": "/img/elon-musk-548x350.jpeg",
+      "video": "",
+      "companyID": 1,
+      "writerID": 3,
+      "likeCount": 123,
+      "viewCount": 134,
+      "subtitle": "مهندس افسانه ای سیلیکون ولی زندگی تمام انسان ها را دگرگون کرد.",
+      "status": "active",
+      "publishAt": "1400/1/1",
+      "text": "",
+      "favoriteStatus": true
+    },
+    {
+      "ID": 7,
+      "categoryID": 7,
+      "title": "تایتل هفت مروری بر زندگی گوردون مور، مهندس افسانه ای دره سیلیکونی و خالق قانون مور",
+      "type": "text",
+      "image": "/img/elon-musk-548x350.jpeg",
+      "video": "",
+      "companyID": 1,
+      "writerID": 3,
+      "likeCount": 123,
+      "viewCount": 134,
+      "subtitle": "مهندس افسانه ای سیلیکون ولی زندگی تمام انسان ها را دگرگون کرد.",
+      "status": "active",
+      "publishAt": "1400/1/1",
+      "text": "",
+      "favoriteStatus": true
+    },
+    {
+      "ID": 8,
+      "categoryID": 7,
+      "title": "تایتل هشت مروری بر زندگی گوردون مور، مهندس افسانه ای دره سیلیکونی و خالق قانون مور",
+      "type": "text",
+      "image": "/img/elon-musk-548x350.jpeg",
+      "video": "",
+      "companyID": 1,
+      "writerID": 3,
+      "likeCount": 123,
+      "viewCount": 134,
+      "subtitle": "مهندس افسانه ای سیلیکون ولی زندگی تمام انسان ها را دگرگون کرد.",
+      "status": "active",
+      "publishAt": "1400/1/1",
+      "text": "",
+      "favoriteStatus": true
+    },
+    {
+      "ID": 9,
+      "categoryID": 9,
+      "title": "تایتل نه مروری بر زندگی گوردون مور، مهندس افسانه ای دره سیلیکونی و خالق قانون مور",
+      "type": "text",
+      "image": "/img/elon-musk-548x350.jpeg",
+      "video": "",
+      "companyID": 1,
+      "writerID": 3,
+      "likeCount": 123,
+      "viewCount": 134,
+      "subtitle": "مهندس افسانه ای سیلیکون ولی زندگی تمام انسان ها را دگرگون کرد.",
+      "status": "active",
+      "publishAt": "1400/1/1",
+      "text": "",
+      "favoriteStatus": true
+    }
+  ],
+  "postComments": [
+    {
+      "ID": 1,
+      "postID": 1,
+      "userID": 2,
+      "text": "ناهارم دادن؟",
+      "parentID": 0,
+      "status": "active"
+    },
+    {
+      "ID": 2,
+      "postID": 1,
+      "userID": 3,
+      "text": "خیر",
+      "parentID": 1,
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "postID": 1,
+      "userID": 2,
+      "text": "ناهارم داتدن؟",
+      "parentID": 0,
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "postID": 1,
+      "userID": 2,
+      "text": "ناهارم داتدن؟",
+      "parentID": 0,
+      "status": "active"
+    },
+    {
+      "postID": 1,
+      "userID": 2,
+      "text": "ناهارم داتدن؟",
+      "parentID": 0,
+      "status": "active",
+      "id": 5
+    },
+    {
+      "postID": 1,
+      "userID": 2,
+      "text": "ناهارم داتدن؟",
+      "parentID": 0,
+      "status": "active",
+      "id": 6
+    },
+    {
+      "postID": 1,
+      "userID": 2,
+      "text": "سلام \nسلام",
+      "parentID": 0,
+      "status": "active",
+      "id": 7
+    }
+  ],
+  "galleries": [
+    {
+      "ID": 1,
+      "companyID": 1,
+      "title": "بنام خدا",
+      "file": "img/image-file-extensions.webp",
+      "status": "active"
+    }
+  ],
+  "catalogs": [
+    {
+      "ID": 1,
+      "companyID": 1,
+      "title": "بنام خدا",
+      "file": "img/image-file-extensions.webp",
+      "status": "active"
+    }
+  ],
+  "certificates": [
+    {
+      "ID": 1,
+      "companyID": 1,
+      "title": "بنام خدا",
+      "file": "img/image-file-extensions.webp",
+      "status": "active"
+    }
+  ],
+  "postLikes": [
+    {
+      "ID": 1,
+      "PostID": 1,
+      "userID": 1
+    }
+  ]
+}
